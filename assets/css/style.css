@@ -520,6 +520,7 @@ a {
   background-color: var(--pri-color);
 }
 
+/* ======================features 1============================= */
 .feedback {
   margin-top: 135px;
   padding: 96px 0;
@@ -639,4 +640,22 @@ a {
   width: 137px;
   height: 50px;
   background-color: var(--pri-color);
+}
+
+/* =====================Features 2===================== */
+.features-2nd {
+  margin-top: 70px;
+}
+
+.features-2nd .body {
+  flex-direction: row-reverse;
+}
+
+.features-2nd .content {
+  width: 49%;
+}
+
+.features-2nd .images img {
+  width: 470px;
+  height: 440px;
 }
