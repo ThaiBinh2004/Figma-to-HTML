@@ -161,7 +161,23 @@ a {
   margin-right: auto;
 }
 
-/* =================================header */
+/* sau 1 dong hien dau 3 cham */
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 1);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* sau 2 dong hien 3 cham */
+.line-clamp.line-2 {
+  --line-clamp: 2;
+}
+
+.break-all {
+  word-break: break-all;
+}
+/* =================================header================================== */
 .header {
   background: #fffcf4;
 }
@@ -432,6 +448,7 @@ a {
 }
 
 .popular .course-item {
+  flex: 1;
   border-radius: 12px;
   border: 1px solid #e2dfda;
   background: #fff;
