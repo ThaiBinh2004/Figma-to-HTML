@@ -528,6 +528,7 @@ a {
 
 .feedback-item {
   display: flex;
+  flex-shrink: 0;
 }
 
 .feedback .avatar {
@@ -584,4 +585,58 @@ a {
   font-style: italic;
   font-weight: 400;
   line-height: 154%;
+}
+
+.feedback-list {
+  display: flex;
+  overflow: hidden;
+}
+
+.features {
+  margin-top: 135px;
+  padding: 65px 0;
+}
+
+.features .body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features .images {
+  display: flex;
+  gap: 30px;
+}
+
+.features .images img {
+  width: 270px;
+  height: 404px;
+  border-radius: 16px;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+  object-fit: cover;
+}
+
+.features .lower {
+  margin-top: 34px;
+}
+
+.features .content {
+  width: 41%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.features .dsc {
+  margin-top: 16px;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 175%;
+}
+
+.features .cta-btn {
+  margin-right: 32px;
+  width: 137px;
+  height: 50px;
+  background-color: var(--pri-color);
 }
